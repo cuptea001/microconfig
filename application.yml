@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      -dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microconfig-dev
+---
+spring:
+  profiles: default
+  application:
+    name: microconfig-default
